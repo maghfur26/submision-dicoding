@@ -46,7 +46,7 @@
 }
 
 .nav-ul li a {
-    color: #ffff;
+    color: #0cebeb;
     font-size: 1em;
     text-decoration: none;
     padding: 10px;
@@ -215,6 +215,10 @@
 
     .nav-ul {
         display: none;
+    }
+
+    .nav-ul li a {
+        color: white;
     }
 
     .list a {
