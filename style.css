@@ -177,18 +177,21 @@
 }
 
 .container-profil {
-    background-color: #0cebeb;
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    width: 50%;
-    margin: 50px auto;
+    margin-top: 40px;
     border-radius: 4px;
-    box-shadow: 1px 2px 5px;
     position: relative;
 }
 
+.container-profil aside {
+    padding-left: 50px;
+}
+
 .container-profil h2 {
+    margin-top: 60px;
     font-size: 2em;
-    text-decoration: underline;
     color: #0733b4;
 }
 
@@ -197,8 +200,9 @@
 }
 
 .container-profil p {
+    width: 80%;
+    color: #0cebeb;
     padding-top: 10px;
-    color: white;
 }
 
 
@@ -228,6 +232,7 @@
     }
 
     .main-article p {
+        color: #0cebeb;
         font-size: 10px;
     }
 
@@ -248,13 +253,13 @@
     }
 
     .container-profil h2 {
-    font-family: sans-serif;
-    font-size: 1.2em;
+        margin-top: 0;
+        font-family: sans-serif;
+        font-size: 1.2em;
     }
 
     .container-profil p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+        font-size: 12px;
     }
 }
 
