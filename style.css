@@ -299,8 +299,11 @@
         height: 40vh;
     }
     
+    .content-hero {
+        height: 50vh;
+    }
+
     .content-hero .container{
-        height: 60vh;
         flex-direction: column;
     }
 
