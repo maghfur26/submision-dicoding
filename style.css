@@ -177,7 +177,6 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-top: 20px;
     border-radius: 4px;
     position: relative;
 }
@@ -278,7 +277,6 @@
     }
 
     .image > img {
-        margin-top: 20px;
         height: 250px;
         align-items: flex-start;
     }
@@ -297,7 +295,7 @@
     }
     
     .content-hero{
-        height: 50vh;
+        height: 40vh;
     }
 
     .svg-wave {
