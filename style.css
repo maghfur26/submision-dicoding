@@ -227,6 +227,10 @@
     box-shadow:  0 1px 5px  black;
 }
 
+.card ul li img {
+    width: 350px;
+}
+
 .card ul li:nth-child(1) {
     width: 350px;
     height: 200px;
@@ -254,28 +258,29 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
+
 @media (max-width: 768px) {
     .navbar {
         height: 35px;
         padding-top: 15px;
     }
-
+    
     .nav-ul {
         display: none;
     }
-
+    
     .nav-ul li {
         padding: 10px;
     }
-
+    
     .nav-ul li a {
         color: white;
     }
-
+    
     .list a {
         color: #0cebeb !important;
     }
-
+    
     .image > img {
         height: 250px;
         align-items: flex-start;
@@ -284,40 +289,45 @@
     .main-article h1 {
         font-size: 2em;
     }
-
+    
     .main-article p {
         color: #0cebeb;
         font-size: 10px;
     }
-
+    
     .container-profil {
         height: 40vh;
     }
     
     .content-hero{
-        height: 50vh;
+        height: 60vh;
     }
 
     .svg-wave {
         display: none;
     }
-
+    
     .container-profil img {
         height: 100px;
     }
-
+    
     .container-profil h2 {
         margin-top: 0;
         font-family: sans-serif;
         font-size: 1.2em;
     }
-
+    
     .container-profil p {
         font-size: 12px;
     }
+    
+    .card ul li img {
+        width: 230px;
+    }
 
     .card ul li:nth-child(1), .card ul li:nth-child(2), .card ul li:nth-child(3) {
-        width: 150px;
+        width: 100px;
+        height: 150px;
     }
 
     #daftar-hotel {
